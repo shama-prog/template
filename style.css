@@ -37,7 +37,7 @@ background-color:#ccc;
     .row {
       display: flex;
       flex-wrap: wrap;
-      flex-direction: column; 
+      
      }
      .about {
      background-color: teal;
@@ -50,6 +50,7 @@ background-color:#ccc;
      background-color: blue;
      padding: 10px;
      flex: 50%;
+     flex-direction: column; 
      height:200px;
      text-align:center;
      }
@@ -58,6 +59,7 @@ background-color:#ccc;
      padding: 10px;
      flex: 50%;
      height:200px;
+     flex-direction: column;    
      text-align:center;
      }
      .footer {
