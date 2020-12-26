@@ -34,6 +34,10 @@ background-color:#ccc;
      height:30px;
      text-align:center;
      }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+     }
      .about {
      background-color: teal;
      padding: 10px;
