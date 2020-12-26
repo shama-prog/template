@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+body {
+background-color:#ccc;
+}
+.flex-container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     
+     }
+  .logo {
+     background-color: #f1f1f1;
+     padding: 10px;
+     flex: 100%;
+     height:30px;
+     text-align:center;
+     }
+     .header {
+     background-color: teal;
+     padding: 10px;
+     flex: 100%;
+     height:100px;
+     text-align:center;
+     }
+     .nav {
+     display:flex;
+     
+     }
+     .nav a{
+     background-color: #f1f1f1;
+     padding: 10px;
+     flex: 25%;
+     height:30px;
+     text-align:center;
+     }
+     .about {
+     background-color: teal;
+     padding: 10px;
+     flex: 50%;
+     height:400px;
+     text-align:center;
+     }
+     .quick-link {
+     background-color: blue;
+     padding: 10px;
+     flex: 50%;
+     height:200px;
+     text-align:center;
+     }
+      .quick-link {
+     background-color: blue;
+     padding: 10px;
+     flex: 50%;
+     height:200px;
+     text-align:center;
+     }
+     .footer {
+     background-color: black;
+     flex: 100%;
+     height: 50px;
+     text-align: center;
+     }
+     
+    @media (max-width: 800px) {
+  .header, .logo, .nav, .about, .quick-link, .footer {
+    flex: 100%;
+  }
+} 
+     
+     
