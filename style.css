@@ -4,9 +4,8 @@
 body {
 background-color:#ccc;
 }
-.flex-container {
+.container {
      display: flex;
-     flex-direction: row;
      flex-wrap: wrap;
      
      }
@@ -26,7 +25,7 @@ background-color:#ccc;
      }
      .nav {
      display:flex;
-     
+     flex-grow: 3;
      }
      .nav a{
      background-color: #f1f1f1;
