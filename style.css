@@ -48,14 +48,14 @@ background-color:#ccc;
      .quick-link {
      background-color: blue;
      padding: 10px;
-     flex: 1;
+     flex: 50%;
      height:200px;
      text-align:center;
      }
       .quick-link {
      background-color: blue;
      padding: 10px;
-     flex: 1;
+     flex: 50%;
      height:200px;
      text-align:center;
      }
