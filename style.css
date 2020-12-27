@@ -45,20 +45,7 @@ background-color:#ccc;
      height:400px;
      text-align:center;
      }
-     .quick-link {
-     background-color: blue;
-     padding: 10px;
-     flex: 50%;
-     height:200px;
-     text-align:center;
-     }
-      .quick-link {
-     background-color: blue;
-     padding: 10px;
-     flex: 50%;
-     height:200px;
-     text-align:center;
-     }
+    
      .footer {
      background-color: black;
      flex: 100%;
